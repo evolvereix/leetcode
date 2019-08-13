@@ -4,7 +4,7 @@
 
 > 换用 JavaScript 刷题，有种不一样的感觉。
 
-*使用其他语言阅读: English*
+*使用其他语言阅读: [English](https://github.com/algorizen/leetcode/blob/master/README.md)*
 
 #### LeetCode 算法
 
