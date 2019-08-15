@@ -1,8 +1,10 @@
 # LeetCode
 
-This repository contains JavaScript based examples of many popular algorithms and data structures.
+LeetCode Problems' Solutions.
 
 > Switching to JavaScript to brush up questions has a different feeling.
+
+This repository contains JavaScript based examples of many popular algorithms and data structures.
 
 Read this in other languages: [简体中文](https://github.com/algorizen/leetcode/blob/master/README.zh-CN.md)
 
