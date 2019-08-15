@@ -51,6 +51,40 @@
  * @return {string}
  */
 
+// use stack 1
 const simplifyPath = (path) => {
-      
+  let stack = []
+  let skip = new Set(['..', '.', ''])
+  let k = path.split('/')
+
+  for (const v of k) {
+    if (v === '..' && stack.length) {
+      stack.pop()
+    } else if (!skip.has(v)) {
+      stack.push(v)
+    }
+  }
+  return '/' + stack.join('/')
+}
+
+// use stack 2
+const simplifyPath = (path) => {
+  let stack = []
+  let k = path.split('/').filter((p) => { return p && p !== '.' })
+
+  for (const v of k) {
+    v === '..' ? stack.pop() : stack.push(v)
+  }
+
+  return '/' + stack.join('/')
+}
+
+// I don't understand.
+// use regexp
+const simplifyPath = (path) => {
+  path = path.replace(/\/{2,}/g, '/').replace(/(\/\.(?=\/|\/$)|\/$)/g, '')
+  console.log('path', path)
+
+  while (path !== (p = path.replace(/(^.*?)((?:\/\.\.(?=\/|$))+)/, (match, dirs, dd) => dirs.replace(new RegExp(`(\\/[^\\/]+){0,${dd.length / 3}}$`), '')))) path = p;
+  return path || '/'
 }
