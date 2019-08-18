@@ -18,13 +18,14 @@
  */
 
 const largestRectangleArea = (heights) => {
+  // only one input case
+  heights.push(0)
   let ans = 0
   let stack = []
   const len = heights.length
 
   for (let i = 0; i <= len; i++) {
-    let cur = (i === len) ? -1 : heights[i]
-    while (stack.length && cur < heights[stack[stack.length - 1]]) {
+    while (stack.length && heights[i] < heights[stack[stack.length - 1]]) {
       let tmp = heights[stack.pop()]
       let distance = stack.length === 0 ? i : i - stack[stack.length - 1] -1
       ans = Math.max(ans, distance*tmp)
