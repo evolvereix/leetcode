@@ -18,24 +18,19 @@
  */
 
 const largestRectangleArea = (heights) => {
-  if (!heights) return 0
-
-  let len = heights.length
+  // only one input case
+  heights.push(0)
   let ans = 0
   let stack = []
-  
-  for (let i = 0; i < len; i++) {
-    if (i === len) return heights[i]
+  const len = heights.length
+
+  for (let i = 0; i <= len; i++) {
     while (stack.length && heights[i] < heights[stack[stack.length - 1]]) {
       let tmp = heights[stack.pop()]
-      let distance = !stack.length ? i : i - stack[stack.length - 1] - 1
-      ans = Math.max(ans, distance * tmp)
+      let distance = stack.length === 0 ? i : i - stack[stack.length - 1] -1
+      ans = Math.max(ans, distance*tmp)
     }
     stack.push(i)
   }
-
   return ans
 }
-
-let input = [2]
-console.log('largestRectangleAreaq', largestRectangleArea(input))
