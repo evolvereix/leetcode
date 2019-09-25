@@ -29,7 +29,3 @@ const twoSum = (nums, target) => {
     m.set(v, i)
   }
 }
-
-const nums = [2, 7, 11, 15]
-const target = 9
-console.log('twoSum: ', twoSum(nums, target))
