@@ -78,6 +78,3 @@ const romanToInt = (s) => {
 
   return result
 }
-
-const s = 'MCD'
-console.log(romanToInt(s))
