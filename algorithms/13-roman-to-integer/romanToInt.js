@@ -61,5 +61,23 @@
  */
 
 const romanToInt = (s) => {
+  const MAP = new Map([
+    ['I', 1],
+    ['V', 5],
+    ['X', 10],
+    ['L', 50],
+    ['C', 100],
+    ['D', 500],
+    ['M', 1000]
+  ])
+  let result = s.split('').reduce((acc, cur, index) => {
+    const next = s[index + 1]
+    const intCur = MAP.get(cur)
+    return (intCur < MAP.get(next)) ? (acc - intCur) : (acc + intCur)
+  }, 0)
 
+  return result
 }
+
+const s = 'MCD'
+console.log(romanToInt(s))
