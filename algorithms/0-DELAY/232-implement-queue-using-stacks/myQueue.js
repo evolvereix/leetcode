@@ -31,7 +31,9 @@
 /**
  * Initialize your data structure here.
  */
-class MyQueue {
+
+// TODO
+ class MyQueue {
   constructor() {
 
   }

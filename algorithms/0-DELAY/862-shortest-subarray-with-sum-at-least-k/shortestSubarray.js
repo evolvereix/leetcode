@@ -36,6 +36,8 @@
  * @param {number} K
  * @return {number}
  */
+
+// TODO
 const shortestSubarray = (A, K) => {
   
 }

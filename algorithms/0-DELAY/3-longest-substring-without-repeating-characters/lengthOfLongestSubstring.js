@@ -34,6 +34,8 @@
  * @param {string} s
  * @return {number}
  */
+
+// TODO
 const lengthOfLongestSubstring = (s) => {
   let len = s.length
   if (len < 2) return len

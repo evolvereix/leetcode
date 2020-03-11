@@ -28,32 +28,22 @@
  */
 
 const swapPairs = (head) => {
-  if (!head) return null
-
-  let arr = []
-
-  while (head) {
-    let next = head.next
-    head.next = null
-    arr.push(head)
-    head = next
+  if (!head || !head.next) return head
+  let self = new ListNode(null)
+  self.next = head
+  let prev = self
+  while (prev.next && prev.next.next) {
+    let [a, b] = [prev.next, prev.next.next]
+    ;[prev.next, a.next, b.next] = [b, b.next, a]
+    prev = a
   }
+  return self.next
+}
 
-  const len = arr.length
-
-  for (let i = 0; i < len; i += 2) {
-    let a = arr[i]
-    let b = arr[i + 1]
-
-    if (!b) continue
-
-    arr[i] = b
-    arr[i + 1] = a
-  }
-
-  for (let i = 0; i < len - 1; i++) {
-    arr[i].next = arr[i + 1]
-  }
-
-  return arr[0]
+// 递归
+const swapPairs = (head) => {
+  if (!head || !head.next) return head
+  let [a, b] = [head, head.next]
+  ;[a.next, b.next] = [swapPairs(b.next), a]
+  return b
 }
