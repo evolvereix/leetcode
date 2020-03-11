@@ -6,14 +6,18 @@ LeetCode Problems' Solutions.
 
 This repository contains JavaScript based examples of many popular algorithms and data structures.
 
-Read this in other languages: [简体中文](https://github.com/algorizen/leetcode/blob/master/README.zh-CN.md)
-
 ### LeetCode Aligorithms
 
 | # | Title | <span class="Apple-tab-span" style="white-space:pre"></span>Solution | Difficulty |
 | --- | --- | --- | --- |
+| 1013 | Partition Array Into Three Parts With Equal Sum | JavaScript | Easy |
 | 933 | Number Of Recent Calls | JavaScript | Easy |
 | 622 | Design Circular Queue | JavaScript | Medium |
+| 229 | Majority Element II | JavaScript | Medium |
+| 206 | Reverse Linked List | JavaScript | Easy |
+| 169 | Majority Element | JavaScript | Easy |
+| 142 | Linked List Cycle II | JavaScript | Medium |
+| 141 | Linked List Cycle | JavaScript | Easy |
 | 136 | Single Number | JavaScript | Easy |
 | 125 | Valid Palindrome | JavaScript | Easy |
 | 85 | Maximal Rectangle | JavaScript | Hard |
@@ -34,7 +38,7 @@ Read this in other languages: [简体中文](https://github.com/algorizen/leetco
 | 9 | Palindrome Number | JavaScript | Easy |
 | 7 | Reverse Integer | JavaScript | Easy |
 | 4 | Median of Two Sorted Arrays | JavaScript | Hard |
-| 2 | Add Two Numbers | JavaScript |  |
+| 2 | Add Two Numbers | JavaScript | Medium |
 | 1 | Two Sum | JavaScript | Easy |
 
 ### LeetCode Shell
