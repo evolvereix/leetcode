@@ -28,7 +28,7 @@
  */
 
 const threeSum = (nums) => {
-  nums.sort((a, b) => { return a - b })
+  nums.sort((a, b) => a - b)
   let ans = []
   for (let i = 0, len = nums.length; i < len; i++) {
     if (i && nums[i] === nums[i - 1]) continue

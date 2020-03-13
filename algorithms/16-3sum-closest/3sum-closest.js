@@ -26,7 +26,7 @@ const threeSumClosest = (nums, target) => {
   let len = nums.length
   if (len <= 3) return nums.reduce((a, b) => { return a + b })
 
-  nums.sort((a, b) => { return a - b })
+  nums.sort((a, b) => a - b)
 
   let closestSum = nums[0] + nums[1] + nums[2]
 

@@ -34,7 +34,7 @@
 
 const findMedianSortedArrays = (nums1, nums2) => {
   const s = nums1.concat(nums2)
-  s.sort((a, b) => { return a - b })
+  s.sort((a, b) => a - b)
 
   const len = s.length
   if (len & 1) {

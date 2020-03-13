@@ -31,7 +31,7 @@ const fourSum = (nums, target) => {
   let len = nums.length
   if (len < 4) return []
   
-  nums.sort((a, b) => { return a - b })
+  nums.sort((a, b) => a - b)
   let ans = []
 
   for (let i = 0; i < len - 3; i++) {

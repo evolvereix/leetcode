@@ -41,7 +41,7 @@ const mergeKLists = (lists) => {
     }
   })
 
-  ans.sort((a, b) => { return a.val - b.val })
+  ans.sort((a, b) => a.val - b.val)
 
   if (!ans.length) return null
 

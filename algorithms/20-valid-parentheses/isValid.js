@@ -1,5 +1,5 @@
 /**
- * @source https://leetcode.com/problems/two-sum/
+ * @source https://leetcode.com/problems/valid-parentheses/
  * @author algorizen
  * @date 2019-08-09
  * @complexity 
@@ -61,3 +61,14 @@ const isValid = (s) => {
   }
   return !stack.length
 }
+
+const isValid = (s) => {
+  let length
+  do {
+    length = s.length
+    s = s.replace('()', '').replace('[]', '').replace('{}', '')
+  } while (length !== s.length)
+  return !s.length
+}
+
+console.log(isValid("([)]"))
