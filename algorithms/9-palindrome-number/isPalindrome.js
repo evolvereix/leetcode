@@ -1,4 +1,5 @@
 /**
+ * @name 回文数
  * @source https://leetcode.com/problems/palindrome-number/
  * @author algorizen
  * @date 2019-09-25

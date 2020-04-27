@@ -1,4 +1,5 @@
 /**
+ * @name 将数组分成和相等的三个部分
  * @source https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/
  * @author algorizen
  * @date 2019-08-04

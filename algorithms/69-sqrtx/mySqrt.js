@@ -1,5 +1,6 @@
 /**
- * @source https://leetcode.com/problems/sqrtx/https://leetcode.com/problems/sqrtx/
+ * @name x 的平方根
+ * @source https://leetcode.com/problems/sqrtx
  * @author algorizen
  * @date 2019-08-04
  *

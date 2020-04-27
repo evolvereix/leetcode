@@ -1,4 +1,5 @@
 /**
+ * @name 简化路径
  * @source https://leetcode.com/problems/simplify-path/
  * @author algorizen
  * @date 2019-08-11

@@ -1,4 +1,5 @@
 /**
+ * @name 多数元素
  * @source https://leetcode.com/problems/majority-element/
  * @author algorizen
  * @date 2019-08-04

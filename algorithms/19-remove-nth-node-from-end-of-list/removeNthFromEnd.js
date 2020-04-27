@@ -1,4 +1,5 @@
 /**
+ * @name 删除链表的倒数第N个节点
  * @source https://leetcode.com/problems/remove-nth-node-from-end-of-list/
  * @author algorizen
  * @date 2019-08-05

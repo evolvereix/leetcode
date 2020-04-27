@@ -1,4 +1,5 @@
 /**
+ * @name 最长公共前缀
  * @source https://leetcode.com/problems/longest-common-prefix/
  * @author algorizen
  * @date 2019-09-25
@@ -35,7 +36,6 @@ const longestCommonPrefix = (strs) => {
 
   return strs.reduce((acc, cur) => {
     let i = 0
-    console.log(acc)
     while (acc[i] && cur[i] && acc[i] === cur[i]) {
       i++
     }
