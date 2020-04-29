@@ -44,20 +44,27 @@
  */
 
 // fase slow
-const hasCycle = (head) => {
+const detectCycle = (head) => {
   if (!head || !head.next) return null
 
-  let [fast, slow]= [head, head]
-  while (slow && fast && fast.next) {
+  let [fast, slow] = [head, head]
+  while (fast && fast.next) {
     slow = slow.next
     fast = fast.next.next
-    if (fast === slow) return slow
+    if (slow === fast) {
+      fast = head
+      while (slow !== fast) {
+        slow = slow.next
+        fast = fast.next
+      }
+      return slow
+    }
   }
   return null
 }
 
 //  Set or Array
-const hasCycle = (head) => {
+const detectCycle = (head) => {
   if (!head || !head.next) return null
 
   let temp = []
