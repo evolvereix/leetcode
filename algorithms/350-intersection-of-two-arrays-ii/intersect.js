@@ -39,19 +39,20 @@
 const intersect = (nums1, nums2) => {
   let result = []
   let m = new Map()
-  for (const [i, v] of nums1.entries()) {
-    const n = m.has(v) ? (m.get(v) + 1) : 1
-    m.set(v, n)
+  
+  for (const i of nums1) {
+    const n = m.has(i) ? (m.get(i) + 1) : 1
+    m.set(i, n)
   }
 
-  for (const [i, v] of nums2.entries()) {
-    if (m.has(v)) {
-      result.push(v)
-      let n = m.get(v)
+  for (const i of nums2) {
+    if (m.has(i)) {
+      result.push(i)
+      let n = m.get(i)
       if (n > 1) {
-        m.set(v, n - 1)
+        m.set(i, n - 1)
       } else {
-        m.delete(v)
+        m.delete(i)
       }
     }
   }
