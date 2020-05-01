@@ -27,7 +27,7 @@ const moveZeroes = (nums) => {
   let t = 0
   for (let i = 0, len = nums.length; i < len; i++) {
     if (nums[i] !== 0) {
-      [nums[t++], nums[i]] = [nums[i], nums[t]]
+      ;[nums[t++], nums[i]] = [nums[i], nums[t]]
     }
   }
 }

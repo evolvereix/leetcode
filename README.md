@@ -12,6 +12,8 @@ This repository contains JavaScript based examples of many popular algorithms an
 | ---- | ----------------------------------------------- | ---------- | ---------- |
 | 1013 | Partition Array Into Three Parts With Equal Sum | JavaScript | Easy       |
 | 933  | Number Of Recent Calls                          | JavaScript | Easy       |
+| 747  | Largest Number At Least Twice of Others         | JavaScript | Easy       |
+| 724  | Find Pivot Index                                | JavaScript | Easy       |
 | 622  | Design Circular Queue                           | JavaScript | Medium     |
 | 283  | Move Zeroes                                     | JavaScript | Easy       |
 | 232  | Implement Queue using Stacks                    | JavaScript | Easy       |
@@ -29,6 +31,7 @@ This repository contains JavaScript based examples of many popular algorithms an
 | 84   | Largest Rectangle In Histogram                  | JavaScript | Hard       |
 | 75   | Sort Colors                                     | JavaScript | Medium     |
 | 71   | Simplify Path                                   | JavaScript | Medium     |
+| 66   | Plus One                                        | JavaScript | Easy       |
 | 42   | Trapping Rain Water                             | JavaScript | Hard       |
 | 24   | Swap Nodes In Pairs                             | JavaScript | Medium     |
 | 23   | Merge K Sorted Lists                            | JavaScript | Hard       |
