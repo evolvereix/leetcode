@@ -15,12 +15,17 @@ This repository contains JavaScript based examples of many popular algorithms an
 | 747  | Largest Number At Least Twice of Others         | JavaScript | Easy       |
 | 724  | Find Pivot Index                                | JavaScript | Easy       |
 | 622  | Design Circular Queue                           | JavaScript | Medium     |
+| 561  | Array Partition I                               | JavaScript | Easy       |
+| 485  | Max Consecutive Ones                            | JavaScript | Easy       |
+| 344  | Reverse String                                  | JavaScript | Easy       |
 | 283  | Move Zeroes                                     | JavaScript | Easy       |
 | 232  | Implement Queue using Stacks                    | JavaScript | Easy       |
 | 229  | Majority Element II                             | JavaScript | Medium     |
 | 225  | Implement Stack using Queues                    | JavaScript | Easy       |
+| 209  | Minimum Size Subarray Sum                       | JavaScript | Medium     |
 | 206  | Reverse Linked List                             | JavaScript | Easy       |
 | 169  | Majority Element                                | JavaScript | Easy       |
+| 167  | Two Sum II - Input array is sorted              | JavaScript | Easy       |
 | 142  | Linked List Cycle II                            | JavaScript | Medium     |
 | 141  | Linked List Cycle                               | JavaScript | Easy       |
 | 136  | Single Number                                   | JavaScript | Easy       |
@@ -31,8 +36,11 @@ This repository contains JavaScript based examples of many popular algorithms an
 | 84   | Largest Rectangle In Histogram                  | JavaScript | Hard       |
 | 75   | Sort Colors                                     | JavaScript | Medium     |
 | 71   | Simplify Path                                   | JavaScript | Medium     |
+| 67   | Add Binary                                      | JavaScript | Easy       |
 | 66   | Plus One                                        | JavaScript | Easy       |
 | 42   | Trapping Rain Water                             | JavaScript | Hard       |
+| 28   | Implement strStr()                              | JavaScript | Easy       |
+| 27   | Remove Element                                  | JavaScript | Easy       |
 | 24   | Swap Nodes In Pairs                             | JavaScript | Medium     |
 | 23   | Merge K Sorted Lists                            | JavaScript | Hard       |
 | 21   | Merge Two Sorted Lists                          | JavaScript | Easy       |
