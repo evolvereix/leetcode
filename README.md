@@ -17,6 +17,8 @@ This repository contains JavaScript based examples of many popular algorithms an
 | 622  | Design Circular Queue                           | JavaScript | Medium     |
 | 561  | Array Partition I                               | JavaScript | Easy       |
 | 485  | Max Consecutive Ones                            | JavaScript | Easy       |
+| 350  | Intersection of Two Arrays II                   | JavaScript | Easy       |
+| 349  | Intersection of Two Arrays                      | JavaScript | Easy       |
 | 344  | Reverse String                                  | JavaScript | Easy       |
 | 283  | Move Zeroes                                     | JavaScript | Easy       |
 | 232  | Implement Queue using Stacks                    | JavaScript | Easy       |
