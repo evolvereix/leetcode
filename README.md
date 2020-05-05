@@ -32,6 +32,7 @@ This repository contains JavaScript based examples of many popular algorithms an
 | 141  | Linked List Cycle                               | JavaScript | Easy       |
 | 136  | Single Number                                   | JavaScript | Easy       |
 | 125  | Valid Palindrome                                | JavaScript | Easy       |
+| 118  | Pascal's Triangle                               | JavaScript | Easy       |
 | 110  | Balanced Binary Tree                            | JavaScript | Easy       |
 | 104  | Maximum Depth of Binary Tree                    | JavaScript | Easy       |
 | 85   | Maximal Rectangle                               | JavaScript | Hard       |
