@@ -21,13 +21,13 @@
  *
  *  Each element in the result must be unique.
  *  The result can be in any order.
- * 
+ *
  * Follow up:
- * 
+ *
  *  What if the given array is already sorted? How would you optimize your algorithm?
  *  What if nums1's size is small compared to nums2's size? Which algorithm is better?
  *  What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
- * 
+ *
  */
 
 /**
@@ -39,9 +39,9 @@
 const intersect = (nums1, nums2) => {
   let result = []
   let m = new Map()
-  
+
   for (const i of nums1) {
-    const n = m.has(i) ? (m.get(i) + 1) : 1
+    const n = m.has(i) ? m.get(i) + 1 : 1
     m.set(i, n)
   }
 

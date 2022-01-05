@@ -43,7 +43,5 @@ const lengthOfLongestSubstring = (s) => {
   let r = 0
   let ans = 0
 
-  for (let i = 0; i < len; i++) {
-    
-  }
+  for (let i = 0; i < len; i++) {}
 }

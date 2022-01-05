@@ -3,23 +3,22 @@
  * @source https://leetcode.com/problems/majority-element-ii/
  * @author algorizen
  * @date 2019-08-04
- * 
+ *
  * Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
- * 
+ *
  * Note: The algorithm should run in linear time and in O(1) space.
- * 
+ *
  * Example 1:
- * 
+ *
  *  Input: [3,2,3]
  *  Output: [3]
- * 
+ *
  * Example 2:
- * 
+ *
  *  Input: [1,1,1,3,3,2,2,2]
  *  Output: [1,2]
- *   
+ *
  */
-
 
 /**
  * @param {number[]} nums
@@ -35,7 +34,7 @@ const majorityElement = (nums) => {
   let result = []
 
   for (const i of nums) {
-    let count = m.has(i) ? (m.get(i) + 1) : 1
+    let count = m.has(i) ? m.get(i) + 1 : 1
     m.set(i, count)
   }
 
@@ -61,15 +60,17 @@ const majorityElement = (nums) => {
   return [...new Set(res)]
 }
 
-// 摩尔投票法 O(n) O(1) 
+// 摩尔投票法 O(n) O(1)
 const majorityElement = (nums) => {
   const len = nums.length
   if (!nums || !len) return []
   if (len < 2) return nums
 
   let result = []
-  let candidate1 = nums[0], count1 = 0
-  let candidate2 = nums[0], count2 = 0
+  let candidate1 = nums[0],
+    count1 = 0
+  let candidate2 = nums[0],
+    count2 = 0
 
   for (const i of nums) {
     if (i === candidate1) {
@@ -99,8 +100,8 @@ const majorityElement = (nums) => {
   }
 
   const judage = len / 3
-  ;(count1 > judage) && (result.push(candidate1))
-  ;(count2 > judage) && (result.push(candidate2))
+  count1 > judage && result.push(candidate1)
+  count2 > judage && result.push(candidate2)
 
   return result
 }

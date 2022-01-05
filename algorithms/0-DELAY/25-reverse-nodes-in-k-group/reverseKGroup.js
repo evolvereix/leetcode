@@ -43,5 +43,4 @@ const reverseKGroup = (head, k) => {
     cur = cur.next
     count++
   }
-  
 }

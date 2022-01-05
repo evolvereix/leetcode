@@ -3,15 +3,15 @@
  * @source https://leetcode.com/problems/merge-two-sorted-lists/
  * @author algorizen
  * @date 2019-08-07
- * @complexity 
- * 
+ * @complexity
+ *
  * Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
- * 
+ *
  * Example:
- * 
+ *
  *  Input: 1->2->4, 1->3->4
  *  Output: 1->1->2->3->4->4
- * 
+ *
  */
 
 /**

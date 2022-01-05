@@ -28,7 +28,7 @@
  */
 
 //  二分查找
-const mySqrt = x => {}
+const mySqrt = (x) => {}
 
 // 牛顿迭代
 // const mySqrt = (x) => {

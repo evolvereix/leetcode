@@ -26,5 +26,7 @@
  * @return {number}
  */
 const arrayPairSum = (nums) => {
-  return nums.sort((a, b) => a - b).reduce((acc, cur, idx) => (idx % 2 === 0) ? acc += cur : acc)
+  return nums
+    .sort((a, b) => a - b)
+    .reduce((acc, cur, idx) => (idx % 2 === 0 ? (acc += cur) : acc))
 }

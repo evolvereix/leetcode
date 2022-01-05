@@ -3,8 +3,8 @@
  * @source https://leetcode.com/problems/intersection-of-two-arrays/
  * @author algorizen
  * @date @2020/04/29
- * @complexity 
- * 
+ * @complexity
+ *
  * Given two arrays, write a function to compute their intersection.
  *
  * Example 1:
@@ -21,10 +21,9 @@
  *
  *  Each element in the result must be unique.
  *  The result can be in any order.
- * 
- * 
+ *
+ *
  */
-
 
 /**
  * @param {number[]} nums1
@@ -32,5 +31,5 @@
  * @return {number[]}
  */
 const intersect = (nums1, nums2) => {
-  return [...new Set(nums1.filter(item => nums2.includes(item)))]
+  return [...new Set(nums1.filter((item) => nums2.includes(item)))]
 }

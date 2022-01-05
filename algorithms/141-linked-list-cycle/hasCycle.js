@@ -78,7 +78,7 @@ const hasCycle = (head) => {
 const hasCycle = (head) => {
   if (!head || !head.next) return false
 
-  let [fast, slow]= [head, head]
+  let [fast, slow] = [head, head]
   while (slow && fast && fast.next) {
     slow = slow.next
     fast = fast.next.next

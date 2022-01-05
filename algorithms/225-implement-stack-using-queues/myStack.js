@@ -78,8 +78,6 @@ class MyStack {
   }
 }
 
-
-
 /**
  * Your MyStack object will be instantiated and called as such:
  * var obj = new MyStack()

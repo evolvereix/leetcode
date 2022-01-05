@@ -42,5 +42,5 @@ const minDepth = (root) => {
   if (!root) return 0
   const left = minDepth(root.left)
   const right = minDepth(root.right)
-  return (root.left && root.right) ? (Math.min(left, right) + 1) : (left + right + 1)
+  return root.left && root.right ? Math.min(left, right) + 1 : left + right + 1
 }

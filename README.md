@@ -6,7 +6,7 @@ LeetCode Problems' Solutions.
 
 This repository contains JavaScript based examples of many popular algorithms and data structures.
 
-## LeetCode Aligorithms
+## 🚀 Aligorithms
 
 | #    | Title                                           | Solution   | Difficulty |
 | ---- | ----------------------------------------------- | ---------- | ---------- |
@@ -61,3 +61,7 @@ This repository contains JavaScript based examples of many popular algorithms an
 | 4    | Median of Two Sorted Arrays                     | JavaScript | Hard       |
 | 2    | Add Two Numbers                                 | JavaScript | Medium     |
 | 1    | Two Sum                                         | JavaScript | Easy       |
+
+## 🪴 Project Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/68d19968c2e396d0b16e6a35c46c0a6c83132b09.svg "Repobeats analytics image")
